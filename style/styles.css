@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    padding: 20px 0;
+    height: 200px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.menu a{
+    color: rgb(110, 102, 102);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;    
+}
+
+.extras{
+    position: absolute;
+    bottom: -580px;
+    right: -570px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: #168f5c;    
+}
+
+.social-media{
+    position: absolute;
+    right: 580px;
+    top: 200px;
+}
+
+.social-media img{
+    display: block;
+    width: 25px;
+    margin: 30px;
+}
+
+.social-media .facebook{
+    width: 20px;
+}
+
+.texto-sobre{
+    margin-top: -40px;
+    margin-left: -80px;    
+}
+
+.texto-sobre h1{
+    font-size: 70px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color: rgb(68, 64, 64);
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 800px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.texto-sobre button{
+    border:0;
+    background-color:#168f5c;
+    color: white;
+    border-radius: 30px;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.starbucks{
+    color: #168f5c;
+    font-weight: 600;
+}
+
+.segunda-linha{
+    margin-top: -30px;
+}
+
+.copos-menores{
+    display: flex;
+    position: absolute;
+    margin-top: 5.5rem;
+    margin-left: 40rem;
+    height: 100px;
+    cursor: pointer;
+}
+
+.copos-menores .copo1:hover{
+    height: 140px;
+}
+
+.copos-menores .copo2:hover{
+    height: 140px;
+}
+
+.copos-menores .copo3:hover{
+    height: 140px;
+}
