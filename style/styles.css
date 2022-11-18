@@ -145,3 +145,7 @@ button:hover{
   .copo3::after {
     content: url("/arquivos/thumb3.png");
   }
+
+  #copao{
+    margin-top:-2.5rem 
+  }
