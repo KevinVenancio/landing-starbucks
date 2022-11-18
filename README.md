@@ -20,6 +20,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
+## 🚆 Milhas extras
+
+- Fazer a mudança dinâmica ao clicar nos copos :heavy_check_mark:
+
 ## 💻 Projeto
 
 É uma página estatica inspirada na rede de cafés Starbucks.
