@@ -10,7 +10,7 @@
 <br>
 
 <p align="center">
-  <img alt="image_page" src="arquivos/screenshot.png" width="100%">
+  <img alt="image_page" src="arquivos/screenshot.png#vitrinedev" width="100%">
 </p>
 
 ## 🚀 Tecnologias
